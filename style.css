@@ -1,3 +1,8 @@
 body {
     color:#92D5E6;
 }
+
+.hero {
+    height: 75vh;
+    background: url("images/hero.jpeg")
+}
