@@ -1,8 +1,461 @@
-body {
-    color:#92D5E6;
-}
-
-.hero {
-    height: 75vh;
-    background: url("images/hero.jpeg")
-}
+@font-face {
+    font-family: 'akira';
+    src: url(https://assets.codepen.io/5652092/Akira+Expanded+Demo.otf);
+  }
+  @font-face {
+    font-family: 'creato-light';
+    src: url(https://assets.codepen.io/5652092/CreatoDisplay-Light.otf);
+  }
+  @font-face {
+    font-family: 'creato-reg';
+    src: url(https://assets.codepen.io/5652092/CreatoDisplay-Regular.otf);
+  }
+  @font-face {
+    font-family: 'creato-bold';
+    src: url(https://assets.codepen.io/5652092/CreatoDisplay-Bold.otf);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      background-color: #191919;
+  }
+  
+  .header {
+    border-bottom: 1px solid #bababa;
+  }
+  
+  .heading {
+    margin: 0 auto;
+    
+  }
+  
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -20px;
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  .heading nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav {
+    font-family: 'akira', sans-serif;
+  }
+  
+  nav a {
+    text-align: center;
+    padding: 35px 50px;
+    border-left: 1px solid #bababa;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: -8px;
+  }
+  
+  nav a:hover {
+    background-color: #ff8900;
+  }
+  
+  .heading h2 {
+    font-family: 'akira', sans-serif;
+    text-align: center;
+    padding: 20px 35px 24px 25px;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  
+  .section1 {
+    height: 70vh;
+    position: relative;
+    background-image: url("https://assets.codepen.io/5652092/main.jpeg");
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: bottom 30px left 285px;
+  }
+  
+  .title {
+    position: absolute;
+    top: 250px;
+    left: 85px;
+  }
+  
+  .vl {
+    border-left: 5px solid #FF8900;
+    height: 350px;
+    position: absolute;
+    top: 225px;
+    left: 50px;
+    margin-left: -3px;
+  }
+  
+  .vl2{
+    border-right: 5px solid #FF8900;
+    height: 350px;
+    position: absolute;
+    top: 75px;
+    left: 920px;
+    margin-left: -3px;
+  }
+  
+  .title h1 {
+    font-family: 'akira', sans-serif;
+    color: #FFF;
+    font-size: 85px;
+    line-height: 62px;
+  }
+  
+  .text-box {
+    width: 307px;
+    margin-top: 25px;
+  }
+  
+  .text-box p {
+    font-family: 'creato-light', sans-serif;
+    color: #FFF;
+    background: #505050;
+    padding: 15px 20px;
+    font-size: 13px;
+    letter-spacing: .75px;
+    text-align: justify;
+  }
+  
+  .section2 {
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 50px;
+  }
+  
+  .section2 h1 {
+    font-family: 'akira', sans-serif;
+    color: #FFF;
+    font-size: 35px;
+    margin-left: 50px;
+  }
+  
+  .sub-title {
+    position: relative;
+    margin-bottom: 60px;
+  }
+  
+  .bar {
+    border-bottom: 25px solid #FF8900;
+    width: 210px;
+    position: absolute;
+    bottom: -7px;
+    left: 78px;
+    z-index: -1;
+  }
+  
+  .card {
+    font-family: 'creato-light', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    letter-spacing: 1px;
+    color: #FFF;
+    display: flex;
+    background: #ABABAB;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+  }
+  
+  .card img {
+    width: 368px;
+    object-fit: cover;
+  }
+  .card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card p {
+    text-align: left;
+  }
+  
+  .card > div {
+    padding: 2rem;
+  }
+  
+  .card:nth-child(even) img{
+    order: 2;
+  }
+  
+  @media(max-width: 700px) {
+    .card {
+      display: block;
+    }
+  }
+  
+  .section3 {
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 50px;
+  }
+  
+  .section3 h1 {
+    font-family: 'akira', sans-serif;
+    color: #FFF;
+    font-size: 35px;
+    margin-left: 50px;
+  }
+  
+  .bar2 {
+    border-bottom: 25px solid #FF8900;
+    width: 376px;
+    position: absolute;
+    bottom: -7px;
+    left: 78px;
+    z-index: -1;
+  }
+  
+  .container2 {
+    max-width: 950px;
+    margin: auto;
+    padding: 0 2rem;
+  }
+  
+  .carousel-cell img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-cell {
+    width: 33%;
+    height: 400px;
+    margin-right: 10px;
+  }
+  .carousel-cell.size-180 { width: 180px; }
+  .carousel-cell.size-large { width: 75%; }
+  .flickity-button {
+    background: #505050;
+    color: #F2F2F2;
+    opacity: .75;
+  }
+  
+  .flickity-button:hover {
+    background: #FF8900;
+    color: #F2F2F2;
+  }
+  
+  .flickity-prev-next-button {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+  }
+  
+  .flickity-page-dots .dot {
+    height: 4px;
+    width: 147.25px;
+    background: #FF8900;
+    margin: 0;
+    border-radius: 0;
+  }
+  
+  .flickity-page-dots {
+    bottom: -40px;
+  }
+  
+  .carousel-cell {
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    counter-increment: gallery-cell;
+  }
+  
+  .main-carousel:hover .carousel-cell.is-selected {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+  }
+  
+  .front,
+  .back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-family: 'creato-light', sans-serif;
+    font-size: 14px;
+    background: #ABABAB;
+    backface-visibility: hidden;
+  }
+  
+  .back {
+    color: #F2F2F2;
+    padding: 10px;
+    text-align: left;
+    transform: rotateY(180deg);
+  }
+  
+  .back p {
+    margin-top: 10px;
+    line-height: 20px;
+  }
+  
+  .section4 {
+    margin: auto;
+    margin-top: 125px;
+    padding-top: 50px;
+  }
+  
+  .section4 h1 {
+    font-family: 'akira', sans-serif;
+    color: #FFF;
+    font-size: 35px;
+    margin-left: 50px;
+  }
+  
+  .bar3 {
+    border-bottom: 25px solid #FF8900;
+    width: 355px;
+    position: absolute;
+    bottom: -7px;
+    left: 78px;
+    z-index: -1;
+  }
+  
+  .container4 {
+    align-items: center;
+    justify-content: left;
+    margin-left: 40px;
+  }
+  
+  .s4img img {
+    height: 398px;
+    padding: 10px;
+  }
+  
+  .text p {
+    color: #CCC;
+    font-family: 'creato-light', sans-serif;
+    font-size: 15.25px;
+    letter-spacing: 1.2px;
+    padding: 10px;
+    margin-right: 63px;
+    text-align: justify;
+    line-height: 18px;
+  }
+  
+  .s4img2 img {
+    height: 413px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 100px;
+  }
+  
+  .last-container {
+    align-items: center;
+    justify-content: left;
+  }
+  
+  .arrow {
+    background-color: #FF8900;
+    width: 200px;
+    height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  #button::after {
+    content: "\f077";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 3em;
+    line-height: 50px;
+    color: #fff;
+  }
+  
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  
+  /*#button:active {
+    background-color: #555;
+  }*/
+  
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  footer {
+    display: flex;
+    background-color: #505050;
+    justify-content: space-between;
+  }
+  
+  .footer-content {
+    width: 782px;
+    height: 275px;
+    float: right;
+    display: flex;
+  }
+  
+  .footer-links li {
+    list-style: none;
+    margin-top: 40px;
+  }
+  
+  .footer-links li a {
+    text-decoration: none;
+    font-family: 'akira', sans-serif;
+    font-size: 15px;
+    color: #FF8900;
+    margin: 60px;
+  }
+  
+  .footer-links2 li {
+    list-style: none;
+    margin-top: 40px;
+    text-align: right;
+  }
+  
+  .footer-links2 li a {
+    text-decoration: none;
+    font-family: 'akira', sans-serif;
+    font-size: 15px;
+    color: #FF8900;
+    margin: 60px;
+  }
+  
+  .socials {
+    width: 250px;
+  }
+  
+  .socials img {
+    margin-top: 35px;
+    margin-left: 35px;
+    width: 80px;
+  }
