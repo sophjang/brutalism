@@ -81,13 +81,15 @@
   
   .section1 {
     height: 70vh;
+    width: 980px;
+    margin: auto;
     position: relative;
-    background-image: url("https://assets.codepen.io/5652092/main.jpeg");
+    background-image: url("images/main.jpeg");
     background-size: 600px;
     background-repeat: no-repeat;
-    background-position: bottom 30px left 285px;
+    background-position: bottom 70px left 285px;
   }
-  
+
   .title {
     position: absolute;
     top: 250px;
@@ -138,6 +140,7 @@
     margin: auto;
     margin-top: 100px;
     padding-top: 50px;
+    width: 980px;
   }
   
   .section2 h1 {
@@ -210,6 +213,7 @@
     margin: auto;
     margin-top: 100px;
     padding-top: 50px;
+    width: 980px;
   }
   
   .section3 h1 {
