@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'akira';
-    src: url(https://assets.codepen.io/5652092/Akira+Expanded+Demo.otf);
+    src: url(fonts/Akira_Expanded_Demo.otf);
   }
   @font-face {
     font-family: 'creato-light';
-    src: url(https://assets.codepen.io/5652092/CreatoDisplay-Light.otf);
+    src: url(fonts/CreatoDisplay_Light.otf);
   }
   @font-face {
     font-family: 'creato-reg';
-    src: url(https://assets.codepen.io/5652092/CreatoDisplay-Regular.otf);
+    src: url(fonts/CreatoDisplay_Regular.otf);
   }
   @font-face {
     font-family: 'creato-bold';
-    src: url(https://assets.codepen.io/5652092/CreatoDisplay-Bold.otf);
+    src: url(fonts/CreatoDisplay_Bold.otf);
   }
   
   * {
@@ -314,6 +314,7 @@
     margin: auto;
     margin-top: 125px;
     padding-top: 50px;
+    width: 982px;
   }
   
   .section4 h1 {
