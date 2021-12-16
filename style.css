@@ -249,37 +249,38 @@
     height: 400px;
     margin-right: 10px;
   }
+
   .carousel-cell.size-180 { width: 180px; }
   .carousel-cell.size-large { width: 75%; }
   .flickity-button {
-    background: #505050;
-    color: #F2F2F2;
-    opacity: .75;
-  }
-  
-  .flickity-button:hover {
-    background: #FF8900;
-    color: #F2F2F2;
-  }
-  
-  .flickity-prev-next-button {
-    width: 35px;
-    height: 35px;
-    border-radius: 20px;
-  }
-  
-  .flickity-page-dots .dot {
-    height: 4px;
-    width: 147.25px;
-    background: #FF8900;
-    margin: 0;
-    border-radius: 0;
-  }
-  
-  .flickity-page-dots {
-    bottom: -40px;
-  }
-  
+  background: #505050;
+  color: #F2F2F2;
+  opacity: .7;
+}
+
+.flickity-button:hover {
+  background: #FF8900;
+  color: #F2F2F2;
+}
+
+.flickity-prev-next-button {
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+}
+
+.flickity-page-dots .dot {
+  height: 4px;
+  width: 147.25px;
+  background: #FF8900;
+  margin: 0;
+  border-radius: 0;
+}
+
+.flickity-page-dots {
+  bottom: -40px;
+}
+
   .carousel-cell {
     transition: transform 1s;
     transform-style: preserve-3d;
