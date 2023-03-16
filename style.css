@@ -31,7 +31,6 @@
   
   .heading {
     margin: 0 auto;
-    
   }
   
   .nav-bar {
@@ -45,7 +44,7 @@
   
   .heading nav {
     display: flex;
-    align-items: center;
+    align-items: left;
   }
   
   nav li {
@@ -72,9 +71,9 @@
   
   .heading h2 {
     font-family: 'akira', sans-serif;
-    text-align: center;
+    text-align: left;
     padding: 20px 35px 24px 25px;
-    color: #fff;
+    color: #FF8900;
     font-size: 18px;
   }
   
@@ -421,6 +420,14 @@
     background-color: #505050;
     justify-content: space-between;
   }
+
+  .footer-heading {
+    margin-top: 100px;
+    margin-left: 50px;
+    font-family: 'akira', sans-serif;
+    color: #FFF;
+    font-size: 20px;
+  }
   
   .footer-content {
     width: 782px;
@@ -457,11 +464,11 @@
   }
   
   .socials {
-    width: 250px;
+    width: 350px;
   }
   
   .socials img {
-    margin-top: 35px;
-    margin-left: 35px;
-    width: 80px;
+    margin-top: 110px;
+    margin-left: 20px;
+    width: 40px;
   }
